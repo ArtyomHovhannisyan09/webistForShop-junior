@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(189, 232, 255,0.5);
+} 
+header{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    position: fixed;
+}
+.webname{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0 !important;
+    }
+.menu{
+    width: 100%;
+    height: 100%;
+    background-color: #4d85a4;
+    display: flex;
+}
+.menu a{
+    text-decoration: none;
+    color: #04324b;
+    font-size: 20px;
+}
+.menu a:hover{
+    color:  #011927;
+}
+#l_img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_hreff{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu_hreff a{
+    margin: 0 20px 0 50px;
+    display: flex;
+    align-items: center;
+}
+main{
+    background-color: rgba(189, 232, 255,0.5);
+    overflow: hidden;
+
+}
+.prodM{
+    background-color: rgba(189, 232, 255,0.5);
+    overflow: hidden;
+    height: 145vh;
+}
+.mainC{
+    background-color: rgba(189, 232, 255,0.5);
+    overflow: hidden;
+    height: 95vh;
+}
+.image{
+    width: 100%;
+    height: 400px;
+    background: url('img/4709159.jpg') no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide{
+    width: 600px;
+    height: 400px;
+}
+.text{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 50px;
+}
+.text p{
+    font-size: 23px;
+}
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background:#4d85a4;
+
+}
+footer a{
+    width: 25px;
+    height: 25px;
+    margin: 0 0 0 10px;
+  
+}
+.a{
+    margin: 0 0 0 30px;
+}
+.btn > a{
+    text-decoration: none;
+    color: white;
+}
+.by{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+.by > h3{
+    color: #fff;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.TitleGS{
+    font-size: 70px;
+}
+.horizonal{
+    background:rgba(131, 192, 226, 0.5);
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-bottom: 10px;
+}
+.infoForGS{
+  font-size: 30px;
+
+
+}
+.global{
+
+margin-left: 12.5vh;
+margin-top: 15vh;
+    width: 150vh;
+    height: 900px;
+    padding-top: 50px;
+}
+
+.prod-s1{
+
+    width: 136.7vh;
+    display: flex;
+    margin-left: 50px;
+    height: 400px;
+    justify-content: center;
+}
+.prod-s2{
+   
+    width: 136.7vh;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    display: flex;
+    justify-self: center;
+}
+
+.prod-s1-1{
+    border: #011927 solid 2px;
+    border-radius: 20px;
+  
+    width: 37.7vh;
+    background-color: rgba(93, 160, 196, 0.5);
+    margin-left: 25px;
+    height: 400px;
+}
+
+
+
+
+
+.prod-s2-1{
+    border: #011927 solid 2px;
+    border-radius: 20px;
+  
+    width: 37.7vh;
+    background-color: rgba(93, 160, 196, 0.5);
+    margin-left: 75px;
+    height: 400px;
+}
+
+
+
+.s1-1img{
+    width: 150px;
+    height:210px ;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.gametitle{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.donwbutton{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+    background-color: rgb(141, 190, 190);
+    border:rgb(141, 190, 190);
+    color: rgb(126, 167, 167);
+}
+.donwbutton:hover{
+    background-color: rgb(95, 146, 146);
+    border:rgb(95, 146, 146);
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    text-indent: 20px;
+    border: #011927 solid 1px;
+}
+
+
+.formContact{
+    padding-top: 20px;
+    border: #011927 solid 2px;
+    border-radius: 10px ;
+    width: 700px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+ justify-content: center;
+   margin-top: 150px;
+margin-left: 380px;
+display: flex;
+
+}
+  
+.fb9 {
+    border: 1px solid #3366FF;
+    background-color: #B3C6FF;
+    width:150px;
+    height:30px;
+
+  }
+  .recapta{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+
+
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  will-change: transform;
+  margin-top: 20px;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.map{
+    /* margin-left: 460px; */
+    justify-content: center;
+ margin-top: 35px;
+ margin-right: 100px;
+ width: 500px;
+ height: 10vh;
+
+}
+.infoM{
+    background-color: rgba(189, 232, 255,0.5);
+    overflow: hidden;
+    height: 120vh; 
+}
+.infotext{
+    justify-content: center;
+border: #000000 solid 2px;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+.TextInf{
+    margin-left: 20px;
+}
+
+.infotext:hover{
+    /* border: none; */border: #000000 solid 3px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #f9f8fc;
+}
